@@ -9,7 +9,6 @@ import androidx.datastore.preferences.core.preferencesOf
 import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-
 class StoreBoarding(private val context: Context) {
     companion object{
         private val Context.dataStore: DataStore<Preferences> by preferencesDataStore("storeBoarding")

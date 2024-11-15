@@ -21,7 +21,6 @@ import com.example.boardingapp.dataStore.StoreBoarding
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.PagerState
-
 @OptIn(ExperimentalPagerApi::class)
 @Composable
 fun OnBoardingPager(

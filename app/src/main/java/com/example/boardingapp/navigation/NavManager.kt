@@ -1,5 +1,4 @@
 package com.example.boardingapp.navigation
-
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.platform.LocalContext

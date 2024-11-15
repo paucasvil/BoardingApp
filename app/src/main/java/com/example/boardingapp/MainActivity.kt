@@ -14,7 +14,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.boardingapp.navigation.NavManager
 import com.example.boardingapp.ui.theme.BoardingAppTheme
 import com.example.boardingapp.onBoardViews.MainOnBoarding
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

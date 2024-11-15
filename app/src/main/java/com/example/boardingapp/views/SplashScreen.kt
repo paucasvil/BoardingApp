@@ -16,7 +16,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavController
 import com.example.boardingapp.R
 import kotlinx.coroutines.delay
-
 @Composable
 fun SplashScreen(navController: NavController, store : Boolean? ){
     var screen by remember { mutableStateOf("") }

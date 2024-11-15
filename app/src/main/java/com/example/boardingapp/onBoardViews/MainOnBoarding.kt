@@ -38,7 +38,6 @@ fun MainOnBoarding(navController: NavController, store: StoreBoarding){
         infiniteLoop = false,
         initialPage = 0
     )
-
     OnBoardingPager(item = items, pagerState = pagerState, modifier = Modifier
         .fillMaxWidth()
         .background(Color.White), navController = navController, store = store)

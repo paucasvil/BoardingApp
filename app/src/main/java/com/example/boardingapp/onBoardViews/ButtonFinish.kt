@@ -12,7 +12,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.boardingapp.dataStore.StoreBoarding
-
 @Composable
 fun ButtonFinish(currentPage: Int, navController: NavController, store: StoreBoarding){
     Row(modifier= Modifier
